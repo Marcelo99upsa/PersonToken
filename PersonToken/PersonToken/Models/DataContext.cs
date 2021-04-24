@@ -12,5 +12,7 @@ namespace PersonToken.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<PersonToken.Models.Person> People { get; set; }
     }
 }
